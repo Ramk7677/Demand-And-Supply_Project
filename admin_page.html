@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta http-equiv="Content-Security-Policy" content="*">
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<title>Demand API</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<style>
+body {
+	margin: 0;
+	background: #ffff;
+}
+
+.container1 {
+	background: blue;
+	height: 33vh;
+	border-bottom-style: double;
+	border-bottom-color: green;
+}
+
+.container3 {
+	margin-left: 470px;
+}
+
+.container3 ul {
+	display: inline-flex;
+	color: #fff;
+}
+
+.container3 ul li {
+	width: 100px;
+	margin: 15px;
+	padding: 5px;
+	list-style-type: none;
+	list-style-position: inside;
+	font-size: xx-large;
+}
+.row{
+display: table;
+}
+.Column{
+display: table-cell;
+
+}
+</style>
+<body class="main">
+	<div class="container1">
+		<div class="img_logo">
+			<img alt="Demand API" src="demandapi1.jpg"
+				style="width: 25%; height: 10vh; margin-top: 15px; margin-left: 15px;">
+		</div>
+		<div class="container3">
+			<ul>
+				<li><a href="#" style="color: white;">DemandSuply</a></li>
+
+			</ul>
+		</div>
+		<div class="container2"
+			style="border-color: green; height: 2vh; background-color: green; margin-top: 0px; border-bottom-style: double; border-color: blue;"></div>
+
+	</div>
+	
+	<div class="suply" align="center">
+		<h1>Demand API</h1>
+		<hr>
+	</div>
+	<br>
+	<div class="demand_input" style="margin-left: 90px;">
+		<label style=" font-size: x-large;">Day Of
+			Demand:<input type="text" name="Day" placeholder="Days" id="no_of_days"
+			style="width: 25%; height: 5vh;font-size: large;">
+		</label>
+		<br>
+		<label style=" font-size: x-large;">Past
+		Sales/Consumption:</label>
+	
+	
+	
+	<div class="row">
+		<div  class="Column">
+		<p style="margin-left: 120px"><b>Quantity</b></p>
+			<table class="table1">
+				<tr>
+					<td>1day before:</td>
+		
+					<td>
+					<input type="number" name="Quantity" id="Qty1"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+						 
+				</tr>
+				<tr>
+					<td>2day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty2"
+						value="0" min="0"  style="width: 60%;" required="required"></td>		
+			</tr>
+				<tr>
+					<td>3day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty3"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>4day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty4"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>5day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty5"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>6day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty6"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>7day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty7"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>8day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty8"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>9day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty9"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>10day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty10"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>11day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty11"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>12day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty12"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>13day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty13"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>14day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty14"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>15day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty15"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>16day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty16"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>17day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty17"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>18day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty18"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>19day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty19"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>20day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty20"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>21day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty21"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>22day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty22"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>23day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty23"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>24day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty24"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>25day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty25"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>26day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty26"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>27day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty27"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>28day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty28"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>29day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty29"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>30day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty30"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="Column" style="padding:15px;">
+		<p style="margin-left: 120px"><b>Quantity</b></p>
+			<table class="table2">
+			
+				<tr>
+					<td>31day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty31"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>32day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty32"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>33day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty33"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>34day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty34"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>35day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty35"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>36day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty36"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>37day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty37"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>38day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty38"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>39day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty39"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>40day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty40"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>41day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty41"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>42day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty42"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>43day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty43"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>44day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty44"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>45day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty45"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>46day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty46"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>47day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty47"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>48day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty48"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>49day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty49"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>50day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty50"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>51day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty51"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>52day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty52"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>53day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty53"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>54day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty54"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>55day before:</td>
+					<td>
+					<input type="number" name="Quantity"id="Qty55"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>56day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty56"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>57day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty57"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>58day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty58"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>59day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty59"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+				<tr>
+					<td>60day before:</td>
+					<td>
+					<input type="number" name="Quantity" id="Qty60"
+						value="0" min="0"  style="width: 60%;" required="required"></td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+	
+	<br>
+	<input type="submit" value="Submit" id="data-submit" style="height:
+	 6vh; width:25%;margin-left:80px ;font-size: large;">
+	
+<!-- 		<script>
+		function submit() {
+			  var total=document.getElementsByName("Quantity");
+			  sum=0;
+			  for(var i=0;i<total.length;i++){
+				  var ip = total[i];
+			            sum += parseInt(ip.value);
+			        }
+			  document.getElementById("sum").innerHTML=sum;
+			  }
+			 
+</script> -->
+	
+	
+		<br>
+		<h2>Result of console in massage box</h2>
+		<div style="height:2vh;"></div>
+	
+<span id="output"></span>
+<script type="text/javascript">
+
+// Create Date Formate:
+	
+	
+$('#data-submit').on('click',function(){
+function formatDate(date) {
+	   var d = new Date(date),
+	       month = "" + (d.getMonth() + 1),
+	       day = "" + d.getDate(),
+	       year = d.getFullYear();
+
+	   if (month.length < 2)
+	       month = "0" + month;
+	   if (day.length < 2)
+	       day = "0" + day;
+
+	   return [year, month, day].join('-');
+	}
+	
+	// call input field along with date formate
+	
+var no_of_days=$("#no_of_days").val();
+var qty1=$("#Qty1").val();
+var qty2=$("#Qty2").val();
+var qty3=$("#Qty3").val();
+var qty4=$("#Qty4").val();
+var qty5=$("#Qty5").val();
+var qty6=$("#Qty6").val();
+var qty7=$("#Qty7").val();
+var qty8=$("#Qty8").val();
+var qty9=$("#Qty9").val();
+var qty10=$("#Qty10").val();
+var qty11=$("#Qty11").val();
+var qty12=$("#Qty12").val();
+var qty13=$("#Qty13").val();
+var qty14=$("#Qty14").val();
+var qty15=$("#Qty15").val();
+var qty16=$("#Qty16").val();
+var qty17=$("#Qty17").val();
+var qty18=$("#Qty18").val();
+var qty19=$("#Qty19").val();
+var qty20=$("#Qty20").val();
+var qty21=$("#Qty21").val();
+var qty22=$("#Qty22").val();
+var qty23=$("#Qty23").val();
+var qty24=$("#Qty24").val();
+var qty25=$("#Qty25").val();
+var qty26=$("#Qty26").val();
+var qty27=$("#Qty27").val();
+var qty28=$("#Qty28").val();
+var qty29=$("#Qty29").val();
+var qty30=$("#Qty30").val();
+var qty31=$("#Qty31").val();
+var qty32=$("#Qty32").val();
+var qty33=$("#Qty33").val();
+var qty34=$("#Qty34").val();
+var qty35=$("#Qty35").val();
+var qty36=$("#Qty36").val();
+var qty37=$("#Qty37").val();
+var qty38=$("#Qty38").val();
+var qty39=$("#Qty39").val();
+var qty40=$("#Qty40").val();
+var qty41=$("#Qty41").val();
+var qty42=$("#Qty42").val();
+var qty43=$("#Qty43").val();
+var qty44=$("#Qty44").val();
+var qty45=$("#Qty45").val();
+var qty46=$("#Qty46").val();
+var qty47=$("#Qty47").val();
+var qty48=$("#Qty48").val();
+var qty49=$("#Qty49").val();
+var qty50=$("#Qty50").val();
+var qty51=$("#Qty51").val();
+var qty52=$("#Qty52").val();
+var qty53=$("#Qty53").val();
+var qty54=$("#Qty54").val();
+var qty55=$("#Qty55").val();
+var qty56=$("#Qty56").val();
+var qty57=$("#Qty57").val();
+var qty58=$("#Qty58").val();
+var qty59=$("#Qty59").val();
+var qty60=$("#Qty60").val();
+
+var  date=new Date();
+var day1_before=new Date(new Date().setDate(date.getDate() - 1));
+var day2_before=new Date(new Date().setDate(date.getDate() - 2));
+var day3_before=new Date(new Date().setDate(date.getDate() - 3));
+var day4_before=new Date(new Date().setDate(date.getDate() - 4));
+var day5_before=new Date(new Date().setDate(date.getDate() - 5));
+var day6_before=new Date(new Date().setDate(date.getDate() - 6));
+var day7_before=new Date(new Date().setDate(date.getDate() - 7));
+var day8_before=new Date(new Date().setDate(date.getDate() - 8));
+var day9_before=new Date(new Date().setDate(date.getDate() - 9));
+var day10_before=new Date(new Date().setDate(date.getDate() - 10));
+var day11_before=new Date(new Date().setDate(date.getDate() - 11));
+var day12_before=new Date(new Date().setDate(date.getDate() - 12));
+var day13_before=new Date(new Date().setDate(date.getDate() - 13));
+var day14_before=new Date(new Date().setDate(date.getDate() - 14));
+var day15_before=new Date(new Date().setDate(date.getDate() - 15));
+var day16_before=new Date(new Date().setDate(date.getDate() - 16));
+var day17_before=new Date(new Date().setDate(date.getDate() - 17));
+var day18_before=new Date(new Date().setDate(date.getDate() - 18));
+var day19_before=new Date(new Date().setDate(date.getDate() - 19));
+var day20_before=new Date(new Date().setDate(date.getDate() - 20));
+var day21_before=new Date(new Date().setDate(date.getDate() - 21));
+var day22_before=new Date(new Date().setDate(date.getDate() - 22));
+var day23_before=new Date(new Date().setDate(date.getDate() - 23));
+var day24_before=new Date(new Date().setDate(date.getDate() - 24));
+var day25_before=new Date(new Date().setDate(date.getDate() - 25));
+var day26_before=new Date(new Date().setDate(date.getDate() - 26));
+var day27_before=new Date(new Date().setDate(date.getDate() - 27));
+var day28_before=new Date(new Date().setDate(date.getDate() - 28));
+var day29_before=new Date(new Date().setDate(date.getDate() - 29));
+var day30_before=new Date(new Date().setDate(date.getDate() - 30));
+var day31_before=new Date(new Date().setDate(date.getDate() - 31));
+var day32_before=new Date(new Date().setDate(date.getDate() - 32));
+var day33_before=new Date(new Date().setDate(date.getDate() - 33));
+var day34_before=new Date(new Date().setDate(date.getDate() - 34));
+var day35_before=new Date(new Date().setDate(date.getDate() - 35));
+var day36_before=new Date(new Date().setDate(date.getDate() - 36));
+var day37_before=new Date(new Date().setDate(date.getDate() - 37));
+var day38_before=new Date(new Date().setDate(date.getDate() - 38));
+var day39_before=new Date(new Date().setDate(date.getDate() - 39));
+var day40_before=new Date(new Date().setDate(date.getDate() - 40));
+var day41_before=new Date(new Date().setDate(date.getDate() - 41));
+var day42_before=new Date(new Date().setDate(date.getDate() - 42));
+var day43_before=new Date(new Date().setDate(date.getDate() - 43));
+var day44_before=new Date(new Date().setDate(date.getDate() - 44));
+var day45_before=new Date(new Date().setDate(date.getDate() - 45));
+var day46_before=new Date(new Date().setDate(date.getDate() - 46));
+var day47_before=new Date(new Date().setDate(date.getDate() - 47));
+var day48_before=new Date(new Date().setDate(date.getDate() - 48));
+var day49_before=new Date(new Date().setDate(date.getDate() - 49));
+var day50_before=new Date(new Date().setDate(date.getDate() - 50));
+var day51_before=new Date(new Date().setDate(date.getDate() - 51));
+var day52_before=new Date(new Date().setDate(date.getDate() - 52));
+var day53_before=new Date(new Date().setDate(date.getDate() - 53));
+var day54_before=new Date(new Date().setDate(date.getDate() - 54));
+var day55_before=new Date(new Date().setDate(date.getDate() - 55));
+var day56_before=new Date(new Date().setDate(date.getDate() - 56));
+var day57_before=new Date(new Date().setDate(date.getDate() - 57));
+var day58_before=new Date(new Date().setDate(date.getDate() - 58));
+var day59_before=new Date(new Date().setDate(date.getDate() - 59));
+var day60_before=new Date(new Date().setDate(date.getDate() - 60));
+
+day1_before = formatDate(day1_before);   //1 day before date
+day2_before = formatDate(day2_before);   //2 days before date
+day3_before = formatDate(day3_before);   //3 days before date
+day4_before = formatDate(day4_before);   //4 days before date
+day5_before = formatDate(day5_before);   //5 days before date
+day6_before = formatDate(day6_before);   //6 days before date
+day7_before = formatDate(day7_before);   //7 day before date
+day8_before = formatDate(day8_before);   //8 day before date
+day9_before = formatDate(day9_before);   //9 day before date
+day10_before = formatDate(day10_before); //10 day before date
+day11_before = formatDate(day11_before); //11 day before date
+day12_before = formatDate(day12_before); //12 day before date
+day13_before = formatDate(day13_before); //13 day before date
+day14_before = formatDate(day14_before); //14 day before date
+day15_before = formatDate(day15_before); //15 day before date
+day16_before = formatDate(day16_before); //16 day before date
+day17_before = formatDate(day17_before); //17 day before date
+day18_before = formatDate(day18_before); //18 day before date
+day19_before = formatDate(day19_before); //19 day before date
+day20_before = formatDate(day20_before); //20 day before date
+day21_before = formatDate(day21_before); //21 day before date
+day22_before = formatDate(day22_before); //22 day before date
+day23_before = formatDate(day23_before); //23 day before date
+day24_before = formatDate(day24_before); //24 day before date
+day25_before = formatDate(day25_before); //25 day before date
+day26_before = formatDate(day26_before); //26 day before date
+day27_before = formatDate(day27_before); //27 day before date
+day28_before = formatDate(day28_before); //28 day before date
+day29_before = formatDate(day29_before); //29 day before date
+day30_before = formatDate(day30_before); //30 day before date
+day31_before = formatDate(day31_before); //31 day before date
+day32_before = formatDate(day32_before); //32 day before date
+day33_before = formatDate(day33_before); //33 day before date
+day34_before = formatDate(day34_before); //34 day before date
+day35_before = formatDate(day35_before); //35 day before date
+day36_before = formatDate(day36_before); //36 day before date
+day37_before = formatDate(day37_before); //37 day before date
+day38_before = formatDate(day38_before); //38 day before date
+day39_before = formatDate(day39_before); //39 day before date
+day40_before = formatDate(day40_before); //40 day before date
+day41_before = formatDate(day41_before); //41 day before date
+day42_before = formatDate(day42_before); //42 day before date
+day43_before = formatDate(day43_before); //43 day before date
+day44_before = formatDate(day44_before); //44 day before date
+day45_before = formatDate(day45_before); //45 day before date
+day46_before = formatDate(day46_before); //46 day before date
+day47_before = formatDate(day47_before); //47 day before date
+day48_before = formatDate(day48_before); //48 day before date
+day49_before = formatDate(day49_before); //49 day before date
+day50_before = formatDate(day50_before); //50 day before date
+day51_before = formatDate(day51_before); //51 day before date
+day52_before = formatDate(day52_before); //52 day before date
+day53_before = formatDate(day53_before); //53 day before date
+day54_before = formatDate(day54_before); //54 day before date
+day55_before = formatDate(day55_before); //55 day before date
+day56_before = formatDate(day56_before); //56 day before date
+day57_before = formatDate(day57_before); //57 day before date
+day58_before = formatDate(day58_before); //58 day before date
+day59_before = formatDate(day59_before); //59 day before date
+day60_before = formatDate(day60_before); //60 day before date
+
+	// JSON Input formate......
+ 
+ 	const data = JSON.stringify({
+	"inputdata": [
+		         [
+ 			
+ 	  			{
+ 					"productid": "84879000",
+ 					"covereddays": parseInt(no_of_days)
+ 					
+  			    },
+  				
+  		        {
+  					"date": day1_before,
+  					"salesquantity":parseInt(qty1)
+  				},
+  			{
+  					"date": day2_before,
+  					"salesquantity":parseInt(qty2)
+  				},
+  			{
+  						"date":day3_before,
+  						"salesquantity":parseInt(qty3)
+  				},
+  			{
+  							"date":day4_before,
+  							"salesquantity":parseInt(qty4)
+  				},
+  			{
+  								"date":day5_before,
+  								"salesquantity":parseInt(qty5)
+  				},
+  			{
+  									"date": day6_before,
+  									"salesquantity":parseInt(qty6)
+  				},
+   			{
+  						"date":day7_before,
+  						"salesquantity":parseInt(qty7)
+  				},
+   			{
+  						"date":day8_before,
+  						"salesquantity":parseInt(qty8)
+  				},
+   			{
+  						"date":day9_before,
+  						"salesquantity":parseInt(qty9)
+  				},
+  				
+   		/* 	{"date":""+day10_before+"","salesquantity":parseInt(qty10)},
+  			{"date":""+day11_before+"","salesquantity":parseInt(qty11)},
+  			{"date":""+day12_before+"","salesquantity":parseInt(qty12)},
+   			{"date":""+day13_before+"","salesquantity":parseInt(qty13)},
+  			{"date":""+day14_before+"","salesquantity":parseInt(qty14)},
+   			{"date":""+day15_before+"","salesquantity":parseInt(qty15)},
+   			{"date":""+day16_before+"","salesquantity":parseInt(qty16)},
+        	{"date":""+day17_before+"","salesquantity":parseInt(qty17)},
+   			{"date":""+day18_before+"","salesquantity":parseInt(qty18)},
+   			{"date":""+day19_before+"","salesquantity":parseInt(qty19)},
+  			{"date":""+day20_before+"","salesquantity":parseInt(qty20)},
+  			{"date":""+day21_before+"","salesquantity":parseInt(qty21)},
+   			{"date":""+day22_before+"","salesquantity":parseInt(qty22)},
+   		    {"date":""+day23_before+"","salesquantity":parseInt(qty23)},
+			{"date":""+day24_before+"","salesquantity":parseInt(qty24)},
+ 			{"date":""+day25_before+"","salesquantity":parseInt(qty25)},
+   			{"date":""+day26_before+"","salesquantity":parseInt(qty26)},
+   			{"date":""+day27_before+"","salesquantity":parseInt(qty27)},
+   			{"date":""+day28_before+"","salesquantity":parseInt(qty28)},
+  			{"date":""+day29_before+"","salesquantity":parseInt(qty29)},
+   			{"date":""+day30_before+"","salesquantity":parseInt(qty30)},
+   			{"date":""+day31_before+"","salesquantity":parseInt(qty31)},
+   			{"date":""+day32_before+"","salesquantity":parseInt(qty32)},
+   			{"date":""+day33_before+"","salesquantity":parseInt(qty33)},
+  			{"date":""+day34_before+"","salesquantity":parseInt(qty34)},
+  			{"date":""+day35_before+"","salesquantity":parseInt(qty35)},
+   			{"date":""+day36_before+"","salesquantity":parseInt(qty36)},
+   		    {"date":""+day37_before+"","salesquantity":parseInt(qty37)},
+   			{"date":""+day38_before+"","salesquantity":parseInt(qty38)},
+   			{"date":""+day39_before+"","salesquantity":parseInt(qty39)},
+   			{"date":""+day40_before+"","salesquantity":parseInt(qty40)},
+   			{"date":""+day41_before+"","salesquantity":parseInt(qty41)},
+  			{"date":""+day42_before+"","salesquantity":parseInt(qty42)},
+   			{"date":""+day43_before+"","salesquantity":parseInt(qty43)},
+   			{"date":""+day44_before+"","salesquantity":parseInt(qty44)},
+   			{"date":""+day45_before+"","salesquantity":parseInt(qty45)},
+   			{"date":""+day46_before+"","salesquantity":parseInt(qty46)},
+   			{"date":""+day47_before+"","salesquantity":parseInt(qty47)},
+   			{"date":""+day48_before+"","salesquantity":parseInt(qty48)},
+   			{"date":""+day49_before+"","salesquantity":parseInt(qty49)},
+   			{"date":""+day50_before+"","salesquantity":parseInt(qty50)},
+   			{"date":""+day51_before+"","salesquantity":parseInt(qty51)},
+   			{"date":""+day52_before+"","salesquantity":parseInt(qty52)},
+   			{"date":""+day53_before+"","salesquantity":parseInt(qty53)},
+   			{"date":""+day54_before+"","salesquantity":parseInt(qty54)},
+   			{"date":""+day55_before+"","salesquantity":parseInt(qty55)},
+   			{"date":""+day56_before+"","salesquantity":parseInt(qty56)},
+   			{"date":""+day57_before+"","salesquantity":parseInt(qty57)},
+   			{"date":""+day58_before+"","salesquantity":parseInt(qty58)},
+   			{"date":""+day59_before+"","salesquantity":parseInt(qty59)},
+   			{"date":""+day60_before+"","salesquantity":parseInt(qty60)}, 
+   			
+ */   			
+ ]]
+  			
+});
+  
+  console.log(data);
+ 
+  /* var inp = {"inputdata":
+	    [
+		  {"productid":"84879000","covereddays":7},
+		  {"date":'\+"2019-08-31"+',"salesquantity":300},
+		  {"date":"2019-08-31","salesquantity":500},
+		  {"date":"2019-08-31","salesquantity":4500},
+		  {"date":"2019-08-29","salesquantity":200},
+		  {"date":"2019-08-28","salesquantity":416},
+		  {"date":"2019-08-28","salesquantity":500},
+		  {"date":"2019-08-28","salesquantity":600},
+		  {"date":"2019-08-28","salesquantity":1000},
+		  {"date":"2019-08-24","salesquantity":58},
+		  {"date":"2019-08-24","salesquantity":200}
+		]
+ }; */
+ 			
+ 
+ 
+ 
+
+
+ 
+
+	/* demandApi();
+	
+	function demandApi(){
+		$.ajax({
+			 url :"http://35.244.58.3:8000/demand",
+			 data:inp,
+			 datatype:"JSON",
+			 method:"POST",
+
+			 success: function(result){
+					alert("data Succesfully Updated");
+			 },
+			 failure:function(result){
+				 alert("Data not updated");
+			 }			 
+		 });
+		 
+	} */
+	
+
+	// call API by using Ajax
+	
+  /* UserAction();
+	 function UserAction() {
+      var xhttp = new XMLHttpRequest();
+      
+      xhttp.onreadystatechange = function() {
+           if (this.readyState == 4 && this.status == 200) {
+        	   var responseJsonObj = JSON.parse(this.responseText);
+           }
+     };
+     
+     
+	
+     
+     
+     xhttp.open("POST", "http://35.244.58.3:8000/demand", true);
+    // xhttp.setRequestHeader("Access-Control-Allow-Origin","*");
+     //   xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.send(JSON.stringify(inp));
+     }
+  */
+
+	
+	/* console.log(inp);
+	demand(inp);
+	function demand(inp){
+		$.ajax({
+			method:"POST",
+		url:"http://35.244.58.3:8000/demand",
+		headers:{
+			'Content-Type':'application/json'
+		},
+		crossDomain:true,
+		data:inp,
+		dataType:'json',
+		success:function(result){
+			alert("succesful");
+		},
+		failure:function(result){
+			alert("unsuccessful");
+		}
+		})
+	}
+ */	
+	
+ /* const data = JSON.stringify({
+	"inputdata": [
+		[
+			{
+				"productid": "84879000",
+				"covereddays": 7
+			},
+			{
+				"date": "2019-08-31",
+				"salesquantity": 300
+			},
+			{
+				"date": "2019-08-31",
+				"salesquantity": 500
+			},
+			{
+				"date": "2019-08-31",
+				"salesquantity": 4500
+			},
+			{
+				"date": "2019-08-29",
+				"salesquantity": 200
+			},
+			{
+				"date": "2019-08-28",
+				"salesquantity": 416
+			},
+			{
+				"date": "2019-08-28",
+				"salesquantity": 500
+			},
+			{
+				"date": "2019-08-28",
+				"salesquantity": 600
+			},
+			{
+				"date": "2019-08-28",
+				"salesquantity": 1000
+			},
+			{
+				"date": "2019-08-24",
+				"salesquantity": 58
+			},
+			{
+				"date": "2019-08-24",
+				"salesquantity": 200
+			}
+		],
+		[
+			{
+				"productid": "84139190",
+				"covereddays": 7
+			},
+			{
+				"date": "2019-08-30",
+				"salesquantity": 75
+			},
+			{
+				"date": "2019-08-29",
+				"salesquantity": 3000
+			},
+			{
+				"date": "2019-08-21",
+				"salesquantity": 160
+			},
+			{
+				"date": "2019-08-21",
+				"salesquantity": 1200
+			},
+			{
+				"date": "2019-08-12",
+				"salesquantity": 2000
+			},
+			{
+				"date": "2019-08-01",
+				"salesquantity": 2000
+			},
+			{
+				"date": "2019-06-28",
+				"salesquantity": 800
+			},
+			{
+				"date": "2019-06-28",
+				"salesquantity": 2500
+			},
+			{
+				"date": "2019-06-28",
+				"salesquantity": 800
+			},
+			{
+				"date": "2019-06-28",
+				"salesquantity": 2500
+			}
+		] 
+	]
+}); 
+ 
+ */
+console.log(data);
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
+});
+
+xhr.open("POST", "https://newapi59.p.rapidapi.com/demand");
+xhr.setRequestHeader("content-type", "application/json");
+xhr.setRequestHeader("X-RapidAPI-Key", "279cf8afe9msh0f2b5cceb8d5ffep1dbd3djsncad7318c963b");
+xhr.setRequestHeader("X-RapidAPI-Host", "newapi59.p.rapidapi.com");
+
+xhr.send(data);
+	
+
+});
+
+
+
+</script>
+<div class="empty" style="height: 2vh"></div>
+</div>
+</body>
+
+</html>
